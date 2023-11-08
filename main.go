@@ -4,7 +4,6 @@ import (
     "fmt"
 
     "github.com/GoesToEleven/puppy"
-    "canine/config"
 )
 
 func Bark() {
@@ -17,6 +16,6 @@ func BetterBark() {
 }
 
 func Version() {
-    fmt.Println(config.Version)
+    fmt.Println("v1.2.0")
 }
 
